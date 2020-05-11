@@ -9,12 +9,12 @@
 name: Build OpenWrt
 
 on:
-  release:
-    types: [published]
-  push:
-    branches:
-      - master
-    paths:
+#  release:
+#    types: [published]
+#  push:
+#    branches:
+#      - master
+#    paths:
       - 'N1.config'
       - 'n1/**'
       - '.github/workflows/N1.yml'
